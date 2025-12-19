@@ -21,6 +21,7 @@
 		A1000040000000000000001 /* ModelPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000041000000000000001 /* ModelPreviewView.swift */; };
 		A1000042000000000000001 /* ParameterControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000043000000000000001 /* ParameterControlsView.swift */; };
 		A1000044000000000000001 /* GlassPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000045000000000000001 /* GlassPanel.swift */; };
+		A1000046000000000000001 /* WindowConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000047000000000000001 /* WindowConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		A1000041000000000000001 /* ModelPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPreviewView.swift; sourceTree = "<group>"; };
 		A1000043000000000000001 /* ParameterControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterControlsView.swift; sourceTree = "<group>"; };
 		A1000045000000000000001 /* GlassPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassPanel.swift; sourceTree = "<group>"; };
+		A1000047000000000000001 /* WindowConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				A1000041000000000000001 /* ModelPreviewView.swift */,
 				A1000043000000000000001 /* ParameterControlsView.swift */,
 				A1000045000000000000001 /* GlassPanel.swift */,
+				A1000047000000000000001 /* WindowConfigurator.swift */,
 				A1000012000000000000001 /* Assets.xcassets */,
 				A1000014000000000000001 /* designAR.entitlements */,
 			);
@@ -172,6 +175,7 @@
 				A1000040000000000000001 /* ModelPreviewView.swift in Sources */,
 				A1000042000000000000001 /* ParameterControlsView.swift in Sources */,
 				A1000044000000000000001 /* GlassPanel.swift in Sources */,
+				A1000046000000000000001 /* WindowConfigurator.swift in Sources */,
 				A1000001000000000000001 /* designARApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

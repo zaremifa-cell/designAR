@@ -24,10 +24,10 @@ struct ContentView: View {
                             .padding(.vertical, 10)
                             .background(
                                 RoundedRectangle(cornerRadius: 12, style: .continuous)
-                                    .fill(surfaceColor.opacity(0.95))
+                                    .fill(surfaceColor)
                                     .overlay(
                                         RoundedRectangle(cornerRadius: 12, style: .continuous)
-                                            .stroke(Color.white.opacity(0.05), lineWidth: 0.6)
+                                            .stroke(Color.white.opacity(0.03), lineWidth: 0.5)
                                     )
                             )
                     }
@@ -41,9 +41,9 @@ struct ContentView: View {
                         .fill(surfaceColor)
                         .overlay(
                             RoundedRectangle(cornerRadius: 14, style: .continuous)
-                                .stroke(Color.white.opacity(0.04), lineWidth: 0.8)
+                                .stroke(Color.white.opacity(0.03), lineWidth: 0.6)
                         )
-                        .shadow(color: Color.black.opacity(0.08), radius: 8, x: 0, y: 6)
+                        .shadow(color: Color.black.opacity(0.05), radius: 6, x: 0, y: 4)
 
                     CanvasView(
                         viewModel: viewModel,
@@ -57,7 +57,7 @@ struct ContentView: View {
             .padding(32)
             .frame(minWidth: 1200, minHeight: 800)
             .background(surfaceColor)
-            .edgesIgnoringSafeArea(.all)
+            .ignoresSafeArea()
 
             if isToolbarVisible {
                 ToolbarView(
@@ -103,6 +103,7 @@ struct ContentView: View {
                 print("Error importing image: \(error)")
             }
         }
+        .background(WindowConfigurator().allowsHitTesting(false))
     }
 }
 
